@@ -65,3 +65,15 @@ footer{
     clear:both;
   }
 }
+
+@media screen and(orientation:portrait){
+  body:after{
+    contetn:"縦長";
+  }
+}
+
+@media screen and(orientation:landscape){
+  body:after{
+    content:"横長";
+  }
+}
